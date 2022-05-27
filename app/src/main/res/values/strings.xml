@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Nesti_mes_recettes</string>
+    <string name="text_nesti">NESTI</string>
+    <string name="txt_main_title">Choisissez une catégorie</string>
+    <string name="main_btn_easy">Facile à faire</string>
+    <string name="main_btn_season">C\'est de saison</string>
+    <string name="main_btn_gluten">Sans gluten</string>
+    <string name="main_btn_traditionnal">Traditionnelles</string>
+    <string name="txt_menu_search">Rechercher une recette</string>
+    <string name="txt_menu_list">Liste des courses</string>
+    <string name="txt_menu_presentation">Présentation</string>
+    <string name="txt_menu_contact">Contact</string>
+    <string name="txt_menu_team">Equipe</string>
+    <string name="txt_menu_project">Projet</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_nesti">NESTI</string>
+    <string name="txt_main_title">Choisissez une catégorie</string>
+    <string name="main_btn_easy">Facile à faire</string>
+    <string name="main_btn_season">C\'est de saison</string>
+    <string name="txt_menu_search">menu search</string>
+    <string name="txt_menu_presentation">Présentation</string>
+    <string name="txt_menu_contact">Contact</string>
+</resources>

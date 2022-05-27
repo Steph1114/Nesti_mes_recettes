@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:galilee="http://www.galilee.org/cours-xml"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textViewAppName"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toTopOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_main_title"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_nesti"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color_easy"
+        android:insetLeft="60dp"
+        android:insetTop="20dp"
+        android:insetRight="60dp"
+        android:insetBottom="20dp"
+        android:text="@string/main_btn_easy"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:backgroundTint="@color/color_easy"
+        app:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color_gluten"
+        android:insetLeft="55dp"
+        android:insetTop="20dp"
+        android:insetRight="55dp"
+        android:insetBottom="20dp"
+        android:text="@string/main_btn_gluten"
+        android:textSize="20sp"
+        app:backgroundTint="@color/color_gluten"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.90999997"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color_tradidional"
+        android:insetLeft="44dp"
+        android:insetTop="20dp"
+        android:insetRight="42dp"
+        android:insetBottom="20dp"
+        android:text="@string/main_btn_traditionnal"
+        android:textSize="20sp"
+        app:backgroundTint="@color/color_tradidional"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color_seasonal"
+        android:insetLeft="50dp"
+        android:insetTop="20dp"
+        android:insetRight="50dp"
+        android:insetBottom="20dp"
+        android:rotationX="6"
+        android:text="@string/main_btn_season"
+        android:textSize="20sp"
+        app:backgroundTint="@color/color_seasonal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.716"
+        tools:ignore="TextContrastCheck" />
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        tools:layout_editor_absoluteX="0dp"-->
+    <!--        tools:layout_editor_absoluteY="0dp">-->
+
+    <!--        <galilee:marin-->
+    <!--            id="12"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content">-->
+
+    <!--            <galilee:nom>Surcouf</galilee:nom>-->
+
+    <!--            <galilee:prenom>Robert</galilee:prenom>-->
+
+    <!--            <galilee:remarque lang="FR">Capitaine corsaire</galilee:remarque>-->
+    <!--        </galilee:marin>-->
+
+    <!--    </LinearLayout>-->
+
+    <!-- un premier marin -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
