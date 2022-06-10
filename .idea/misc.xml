@@ -3,10 +3,33 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/User/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1765" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1765" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/menu/menugeneral.xml" value="0.3625" />
+        <entry key="..\:/Users/laure/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/layout/activity_easy.xml" value="0.25" />
+        <entry key="..\:/Users/laure/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/layout/activity_gluten.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/laure/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/laure/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/layout/activity_result.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/laure/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/layout/activity_search.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/laure/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/layout/activity_season.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/laure/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/layout/activity_step.xml" value="0.3578125" />
+        <entry key="..\:/Users/laure/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/layout/activity_tab_recipe.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/laure/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/layout/activity_trad.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/laure/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/layout/fragment_tab_recipe.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/laure/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/layout/line_recipe.xml" value="0.5" />
+        <entry key="..\:/Users/laure/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/layout/line_steps.xml" value="0.553125" />
+        <entry key="..\:/Users/laure/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/menu/menu_general.xml" value="0.6962890625" />
+        <entry key="..\:/Users/laure/AndroidStudioProjects/Nesti_mes_recettes/app/src/main/res/xml/list_traditional.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/laure/Desktop/FilRouge Final/Nesti_Recettes/Nesti_mes_recettes/app/src/main/res/layout/activity_cart.xml" value="0.21875" />
+        <entry key="..\:/Users/laure/Desktop/FilRouge Final/Nesti_Recettes/Nesti_mes_recettes/app/src/main/res/layout/activity_easy.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/laure/Desktop/FilRouge Final/Nesti_Recettes/Nesti_mes_recettes/app/src/main/res/layout/activity_list_ing.xml" value="0.3082051282051282" />
+        <entry key="..\:/Users/laure/Desktop/FilRouge Final/Nesti_Recettes/Nesti_mes_recettes/app/src/main/res/layout/activity_result.xml" value="0.33" />
+        <entry key="..\:/Users/laure/Desktop/FilRouge Final/Nesti_Recettes/Nesti_mes_recettes/app/src/main/res/layout/activity_search.xml" value="0.33" />
+        <entry key="..\:/Users/laure/Desktop/FilRouge Final/Nesti_Recettes/Nesti_mes_recettes/app/src/main/res/layout/activity_step.xml" value="0.33611111111111114" />
+        <entry key="..\:/Users/laure/Desktop/FilRouge Final/Nesti_Recettes/Nesti_mes_recettes/app/src/main/res/layout/activity_tab_recipe.xml" value="0.262037037037037" />
+        <entry key="..\:/Users/laure/Desktop/FilRouge Final/Nesti_Recettes/Nesti_mes_recettes/app/src/main/res/layout/fragment_tab_recipe.xml" value="0.33611111111111114" />
+        <entry key="..\:/Users/laure/Desktop/FilRouge Final/Nesti_Recettes/Nesti_mes_recettes/app/src/main/res/layout/line_cart.xml" value="0.18" />
+        <entry key="..\:/Users/laure/Desktop/FilRouge Final/Nesti_Recettes/Nesti_mes_recettes/app/src/main/res/layout/line_ing.xml" value="0.33611111111111114" />
+        <entry key="..\:/Users/laure/Desktop/FilRouge Final/Nesti_Recettes/Nesti_mes_recettes/app/src/main/res/layout/line_recipe.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/laure/Desktop/FilRouge Final/Nesti_Recettes/Nesti_mes_recettes/app/src/main/res/layout/line_result.xml" value="0.29375" />
+        <entry key="..\:/Users/laure/Desktop/FilRouge Final/Nesti_Recettes/Nesti_mes_recettes/app/src/main/res/layout/line_steps.xml" value="0.20555555555555555" />
       </map>
     </option>
   </component>

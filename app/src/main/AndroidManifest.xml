@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.nesti_mes_recettes">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +15,38 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nesti_mes_recettes"
         tools:targetApi="31">
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListIngActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StepActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TabRecipeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_tab_recipe"
+            android:theme="@style/Theme.Nesti_mes_recettes.NoActionBar" />
+        <activity
+            android:name=".GlutenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SeasonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TradActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EasyActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ressources xmlns:android="http://schemas.android.com/apk/res/android">
+    <recipe cat="tradition"
+        title="Macaron"
+        author="Cédric Grolet"
+        img="r_macarons"
+        star="star_4"/>
+    <recipe cat="tradition"
+        title="Eclair au chocolat"
+        author="Philippe Continici"
+        img="r_eclair_chocolat"
+        star="star_5"/>
+    <recipe cat="tradition"
+        title="Brioche"
+        author="Pierre Hermé"
+        img="r_brioche"
+        star="star_3"/>
+</ressources>
