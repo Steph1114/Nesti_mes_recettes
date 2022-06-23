@@ -28,9 +28,9 @@ public class ListIngActivity extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
         /*String name = "";
-        extras.putString("recipe_name", name);*/
+        extras.putString("name_recipe", name);*/
         String ingName = extras.getString("product_name");
-        String name = extras.getString("name_recipe");
+        String name = extras.getString("name_recipe").replaceAll(" ", "_");
         int idRecipe = extras.getInt("id_recipe");
 
         //extras.putInt("id_recipe", idRecipe);

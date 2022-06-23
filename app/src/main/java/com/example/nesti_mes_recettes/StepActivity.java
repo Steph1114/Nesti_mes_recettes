@@ -31,7 +31,7 @@ public class StepActivity extends AppCompatActivity {
         String name = extras.getString("name_recipe");
         int idRecipe = extras.getInt("id_recipe");
 
-        textView.setTitle(name);
+        textView.setTitle(name.replaceAll("_", " "));
 
         StepViewModel viewModel = new ViewModelProvider.AndroidViewModelFactory(
                 this.getApplication()).create(StepViewModel.class);

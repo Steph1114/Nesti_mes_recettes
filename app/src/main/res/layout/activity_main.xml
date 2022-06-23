@@ -20,48 +20,49 @@
 
     <Button
         android:id="@+id/main_btn_easy"
-        android:layout_width="280dp"
+        android:layout_width="300dp"
         android:layout_height="60dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="216dp"
+        android:layout_marginTop="220dp"
         android:text="@string/main_btn_easy"
         app:backgroundTint="@color/color_easy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/main_btn_traditional"
-        android:layout_width="280dp"
+        android:layout_width="300dp"
         android:layout_height="60dp"
-        android:layout_marginStart="65dp"
         android:layout_marginTop="297dp"
         android:text="@string/main_btn_traditional"
         app:backgroundTint="@color/color_traditional"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/main_btn_season"
-        android:layout_width="280dp"
+        android:layout_width="300dp"
         android:layout_height="60dp"
-        android:layout_marginStart="65dp"
         android:layout_marginTop="378dp"
         android:text="@string/main_btn_season"
         app:backgroundTint="@color/color_seasonal"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/main_btn_gluten"
-        android:layout_width="280dp"
+        android:layout_width="300dp"
         android:layout_height="60dp"
-        android:layout_marginStart="65dp"
         android:layout_marginTop="456dp"
         android:text="@string/main_btn_gluten"
         app:backgroundTint="@color/color_gluten"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextContrastCheck" />

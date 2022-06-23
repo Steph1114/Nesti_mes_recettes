@@ -32,7 +32,7 @@
     <ListView
         android:id="@+id/list_cart"
         android:layout_width="347dp"
-        android:layout_height="492dp"
+        android:layout_height="450dp"
         android:layout_marginTop="32dp"
         android:scrollbars="horizontal|vertical"
         app:layout_constraintEnd_toEndOf="@id/title_cart"

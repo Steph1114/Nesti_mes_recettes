@@ -69,7 +69,7 @@ public class GlutenViewModel extends AndroidViewModel {
                             Recipe r = new Recipe();
                             r.setTitle(object_JSON.getString("name_recipe").replaceAll("_", " "));
                             r.setAuthor(object_JSON.getString("pseudo"));
-                            int img = getResourceImage(object_JSON.getString("id_image"));
+                            int img = getResourceImage(object_JSON.getString("name"));
                             r.setImgId(img);
                             int img_star = difficulty(object_JSON.getString("difficulty"));
                             r.setStarImg(img_star);

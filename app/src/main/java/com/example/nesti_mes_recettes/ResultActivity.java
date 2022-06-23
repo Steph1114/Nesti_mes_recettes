@@ -56,10 +56,11 @@ public class ResultActivity extends AppCompatActivity {
         JsonArrayRequest array_request = new JsonArrayRequest(
                 url,
                 response -> {
+
                     ArrayList<Recipe> rec = new ArrayList<>();
                         try {
                             Log.i("TAG", "requestApi: " + response);
-                            if (response.length() == 0) {
+                            if (response.length() == 0 || response.length() > 50) {
                                 Toast.makeText(
                                         getApplicationContext(),
                                         "Veuillez rentrer une recherche valide",
@@ -83,7 +84,7 @@ public class ResultActivity extends AppCompatActivity {
                                     Log.i("TAG", "RESPONSEEEE SEARCHHHHH: " + response);
                                 }
                             }
-                            //Log.i("TAG", "RESPONSEEEE SEARCHHHHH: " + response);
+                            Log.i("TAG", "RESPONSEEEE SEARCHHHHH: " + response);
 
                         } catch (Exception e) {
                             Log.e("LogNesti", "Erreur de conversion du JSON");

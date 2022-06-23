@@ -141,6 +141,8 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.menu_list:
                 //Log.i("LogNesti", "Menu: Liste de courses");
+                Intent intent2 = new Intent(MainActivity.this, CartActivity.class);
+                startActivity(intent2);
                 Toast t2 = Toast.makeText(this, "Menu: Liste de courses", Toast.LENGTH_SHORT);
                 t2.show();
                 break;
